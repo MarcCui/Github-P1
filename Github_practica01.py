@@ -195,14 +195,15 @@ elif menu == 25 :
 # Git commands Alumn@ 35
 
 # git clone [https:// --- adreça de l'enllaç del codi que us poso tot seguit
-# https://github.com/jbergada/Github_Practica01.git
+# https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
 # El git clone nomes s'ha de fer UNA VEGADA!!!, ja teniu les carpetes al PC
 # Si voleu, per tornar a començar, esborreu la carpeta Github_Practica01 sencera...
-# ... botó dreta -> Actualizar i torneu a fer un git clone https://github.com/jbergada/Github_Practica01.git
+# ... botó dreta -> Actualizar i torneu a fer un git clone https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
 # Seguiu amb la llista de gits que ve tot seguit
 
 # Configuració de correu (vosaltres amb el vostre correu)
 # git config -- user.email "josepmaria.bergada@escolaindustrial.org"
+# git config -- user.name "nom d'usuari de l'alumn@)
 
 
 # git status
