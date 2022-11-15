@@ -209,7 +209,7 @@ elif menu == 25 :
 
 # Configuració de correu (vosaltres amb el vostre correu)
 # git config -- user.email "josepmaria.bergada@escolaindustrial.org"
-# git config -- user.name "nom d'usuari de l'alumn@"
+# git config -- user.name "nom d'usuari de l'alumn@", el de l'Escola
 
 
 # git status ( si heu fet modificacions, us marcarà en vermell)
@@ -218,7 +218,11 @@ elif menu == 25 :
 # git commit -m "elvostreusuari@escolaindustrial.org Cadascu ha de posar el que ha fet sense accents"
 # git status
 # git push -> pujar al repositori
-# Us demanarà un codi, que ja us donaré per correu
+
+# Us demanarà un codi:
+# Usuari: EscolaIndustrial
+# Contrasenya: GithubEscolaIndustrial
+# També us pot demanar un codi que us donarà just abans
 # git status
 
 # cada alumn@ vetllarà perquè la seva part de codi funcioni
