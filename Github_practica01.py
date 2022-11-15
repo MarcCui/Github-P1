@@ -203,17 +203,19 @@ elif menu == 25 :
 # ... botó dreta -> Actualizar i torneu a fer un git clone a:
 
 # https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
+
+# Ara us heu de posar dins la carpeta Github_Practica01, on teniu els arxius
 # Seguiu amb la llista de gits que ve tot seguit
 
 # Configuració de correu (vosaltres amb el vostre correu)
 # git config -- user.email "josepmaria.bergada@escolaindustrial.org"
 # git config -- user.name "nom d'usuari de l'alumn@"
 
-# Ara us heu de posar dins la carpeta Github_Practica01, on teniu els arxius
+
 # git status ( si heu fet modificacions, us marcarà en vermell)
 # git add . -> afegeix tots els arxius. Deixa l'espai abans del punt
-# git status
-# git commit -m "Cadascu ha de posar el que ha fet sense accents"
+# git status (ja surten les modificacins en verd)
+# git commit -m "elvostreusuari@escolaindustrial.org Cadascu ha de posar el que ha fet sense accents"
 # git status
 # git push -> pujar al repositori
 # Us demanarà un codi, que ja us donaré
