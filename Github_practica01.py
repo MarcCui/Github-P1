@@ -218,7 +218,7 @@ elif menu == 25 :
 # git commit -m "elvostreusuari@escolaindustrial.org Cadascu ha de posar el que ha fet sense accents"
 # git status
 # git push -> pujar al repositori
-# Us demanarà un codi, que ja us donaré
+# Us demanarà un codi, que ja us donaré per correu
 # git status
 
 # cada alumn@ vetllarà perquè la seva part de codi funcioni
