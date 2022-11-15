@@ -196,27 +196,31 @@ elif menu == 25 :
 
 # git clone [https:// --- adreça de l'enllaç del codi que us poso tot seguit
 # https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
+
 # El git clone nomes s'ha de fer UNA VEGADA!!!, ja teniu les carpetes al PC
+
 # Si voleu, per tornar a començar, esborreu la carpeta Github_Practica01 sencera...
-# ... botó dreta -> Actualizar i torneu a fer un git clone https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
+# ... botó dreta -> Actualizar i torneu a fer un git clone a:
+
+# https://github.com/EscolaIndustrial-Programacio/Github_Practica01.git
 # Seguiu amb la llista de gits que ve tot seguit
 
 # Configuració de correu (vosaltres amb el vostre correu)
 # git config -- user.email "josepmaria.bergada@escolaindustrial.org"
-# git config -- user.name "nom d'usuari de l'alumn@)
+# git config -- user.name "nom d'usuari de l'alumn@"
 
-
+# Ara us heu de posar dins la carpeta Github_Practica01, on teniu els arxius
+# git status ( si heu fet modificacions, us marcarà en vermell)
+# git add . -> afegeix tots els arxius. Deixa l'espai abans del punt
 # git status
-# git add . -> afegeix tots els arxius Deixa l'espai abans del punt
-# git status
-# git commit -m "josepmaria.bergada@escolaindustrial.org Esquelet del programa -- cadascu ha de posar el que ha fet sense accents"
+# git commit -m "Cadascu ha de posar el que ha fet sense accents"
 # git status
 # git push -> pujar al repositori
+# Us demanarà un codi, que ja us donaré
 # git status
 
 # cada alumn@ vetllarà perquè la seva part de codi funcioni
-# Alumn@ 36 -- Comprobarà resultats, i passarà el .py a .exe (en col·laboració amb
-# els alumnes 27 i 28)
+
 
 """ Prèviament cada alumn@ haurà programat algunes de les figures
 primer amb programació estructurada i després amb programació modular.
