@@ -24,13 +24,13 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
-def estel(): # 5
+def estel(): # 6
     
      
-def trapezi(): # 6
+def trapezi(): # 7
     
 
-def cercle(): # 7
+def cercle(): # 8
     
 
 def poligon(): # 9
@@ -145,16 +145,24 @@ elif menu == 2 :
 elif menu == 3 :
     
 elif menu == 4 : # Alumn@ 30
-    
+    area, perimetre = paralellogram()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 5 :
-    
+    area, perimetre = rombe()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 6 :
-    
+    area, perimetre = estel()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 7 :  
-    
+     area, perimetre = trapezi()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 8 : # Alumn@ 31
     
