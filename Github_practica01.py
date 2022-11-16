@@ -73,7 +73,17 @@ def tetraedre_regular(): # 20
    
 
 def octaedre_regular(): # 21
-  
+    A = 0
+    V = 0
+    try:
+        print("Càlcul de l'àrea i del volum d'un octaedre regular ")
+        l = float(input("Escriu l'aresta del octaedre regular >> "))
+        A = (l**2)*(2*(3**0.5))
+        V = (l**3)*(2**0.5)*(1/3)
+        return A,V
+    except:
+        print("Alguna cosa ha anat malament, tornem-ho a intentar!")
+        octaedre_regular()
 
 def tronc_piramide(): # 22
     
