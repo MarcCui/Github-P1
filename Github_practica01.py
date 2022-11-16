@@ -2,7 +2,7 @@
 
 # Importar la llibreria math i la constant PI Alumn@ 26
 # L'alumn@ 26 ens explicarà què és la llibreria math i perquè la fem servir
-
+# La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
 import math
 PI = math.pi  
 
