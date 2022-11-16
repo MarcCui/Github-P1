@@ -27,6 +27,9 @@ def rombe(): # 5
     
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
 def estel(): # 6
     
 =======
@@ -53,8 +56,19 @@ def cercle(): # 7
     return area, perimetre
 =======
 def cercle(): # 8
+<<<<<<< HEAD
+    print("Càlcul de l'àrea i del perímetre d'un cercle ")
+    radi = float(input("radi = "))
+    area = math.pow(radi, 2) * PI
+    perimetre = 2 * PI * radi
+    return area, perimetre
+=======
     
+<<<<<<< HEAD
 >>>>>>> 5b45db3a2bb343e876f3364324fbfcb5370b435e
+=======
+>>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
+>>>>>>> b820cb2cd834ee863c2d84cb7cb1de8abfd1304f
 
 def poligon(): # 9
     
@@ -69,6 +83,13 @@ def corona(): # 10
     return area, perimetre
     
 def sector(): # 11
+    print("Càlcul de l'àrea i del perímetre d'un sector circular ")
+    angle = float(input("Angle en graus = "))
+    R = float(input("radi = "))
+    area = PI * pow(R,2) * angle/360
+    perimetre = 2 * PI * R * (1-(angle/360))
+    return area, perimetre
+
     
 
 # Àrees i volums
@@ -186,24 +207,39 @@ menu = int(input("escull un element del menú: "))
 # Àrees i perímetres  Alumn@ 29
 
 if menu == 1 :
-    
+    area, perimetre = quadrat()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 2 :
-    
+    area, perimetre = triangle()
+    print("L'àres és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 3 :
+    area, perimetre = rectangle()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 4 : # Alumn@ 30
-    
+    area, perimetre = paralellogram()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 5 :
-    
+    area, perimetre = rombe()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 6 :
-    
+    area, perimetre = estel()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 7 :  
-    
+     area, perimetre = trapezi()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 8 : # Alumn@ 31
     
