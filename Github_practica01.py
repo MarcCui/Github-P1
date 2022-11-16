@@ -165,12 +165,19 @@ menu = int(input("escull un element del menú: "))
 # Àrees i perímetres  Alumn@ 29
 
 if menu == 1 :
-    
+    area, perimetre = quadrat()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 2 :
-    
+    area, perimetre = triangle()
+    print("L'àres és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 3 :
+    area, perimetre = rectangle()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 4 : # Alumn@ 30
     
