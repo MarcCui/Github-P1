@@ -24,14 +24,18 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
-def estel(): # 5
+def estel(): # 6
     
      
-def trapezi(): # 6
+def trapezi(): # 7
     
 
-def cercle(): # 7
-    
+def cercle(): # 8
+    print("Càlcul de l'àrea i del perímetre d'un cercle ")
+    radi = float(input("radi = "))
+    area = math.pow(radi, 2) * PI
+    perimetre = 2 * PI * radi
+    return area, perimetre
 
 def poligon(): # 9
     
