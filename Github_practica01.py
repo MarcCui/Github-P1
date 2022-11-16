@@ -41,6 +41,13 @@ def corona(): # 10
     
 
 def sector(): # 11
+    print("Càlcul de l'àrea i del perímetre d'un sector circular ")
+    angle = float(input("Angle en graus = "))
+    R = float(input("radi = "))
+    area = PI * pow(R,2) * angle/360
+    perimetre = 2 * PI * R * (1-(angle/360))
+    return area, perimetre
+
     
 
 # Àrees i volums
