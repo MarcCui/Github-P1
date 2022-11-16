@@ -25,7 +25,14 @@ def rombe(): # 5
     
 
 def estel(): # 5
-    
+    print("Càlcul de l'àrea i del perímetre d'un estel ")
+    a = float(input("Costat menor a = "))
+    b = float(input("Costat major b = "))
+    D = float(input("Diagonal major = "))
+    d = float(input("Diagonal menor = "))
+    area = (D * d) * (1/2)
+    perimetre = 2 * (b + a)
+    return area, perimetre
      
 def trapezi(): # 6
     
