@@ -86,7 +86,28 @@ def octaedre_regular(): # 21
         octaedre_regular()
 
 def tronc_piramide(): # 22
+    print("Càlcul de l'àrea i del volum d'un tronc de piràmide ")
     
+    h = float(input("Alçada = "))
+    costats = float(input("Número de costats = "))
+    a = float(input("Mida de la cara inclinada a = "))
+    
+    print("Càlcul de l'àrea i del perímetre de la base major ")
+    b_gran = float(input("Costat gran = "))
+    a1 = float(input("Apotema base gran = "))
+    area_major = (b_gran * a1)/2 * costats
+    perimetre_major = costats * b_gran
+    
+    print("Càlcul de l'àrea i del perímetre de la base menor ")
+    b_petit = float(input("Costat petit = "))
+    a2 = float(input("Apotema base petita = "))
+    area_menor = (b_petit * a2)/2 * costats
+    perimetre_menor = costats * b_petit
+    
+    area  = (0.5 * (perimetre_major + perimetre_menor) * a) + area_major + area_menor
+    volum = (area_major + area_menor + pow(area_major * area_menor , 1/2)) * h * 1/3
+    
+    return area, volum
  
 def casquet_esferic(): # 23
     
