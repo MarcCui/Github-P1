@@ -63,8 +63,13 @@ def poligon(): # 9
     
 
 def corona(): # 10
+    print("Càlcul de l'àrea i del perímetre d'una corona circular ")
+    R = float(input("Radi major = "))
+    r = float(input("radi menor = "))
+    area = PI * (R*R - r*r)
+    perimetre = 2 * PI * (R + r)
+    return area, perimetre
     
-
 def sector(): # 11
     
 
@@ -191,16 +196,24 @@ elif menu == 2 :
 elif menu == 3 :
     
 elif menu == 4 : # Alumn@ 30
-    
+    area, perimetre = paralellogram()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 5 :
-    
+    area, perimetre = rombe()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 6 :
-    
+    area, perimetre = estel()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 7 :  
-    
+     area, perimetre = trapezi()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 8 : # Alumn@ 31
     
