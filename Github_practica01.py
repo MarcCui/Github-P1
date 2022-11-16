@@ -10,9 +10,11 @@ PI = math.pi
 # Els números es corresponen amb el número que he assignat a cada figura de la taula
 # Els números també es corresponen amb els de l'alumn@ que ha de fer el programa i enviar-lo
 
-def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25)
-    
-def triangle(): # 2
+def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'àrea i del perímetre d'un quadrat ")
+    a = float(input("Costat = "))
+    area = a * a
+    perimetre = 4 * a
+    return area, perimetredef triangle(): # 2
     
 
 def rectangle(): # 3
@@ -24,6 +26,13 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
+def estel(): # 6
+    
+=======
 def estel(): # 5
     print("Càlcul de l'àrea i del perímetre d'un estel ")
     a = float(input("Costat menor a = "))
@@ -33,11 +42,12 @@ def estel(): # 5
     area = (D * d) * (1/2)
     perimetre = 2 * (b + a)
     return area, perimetre
+>>>>>>> 1f1f3c158bbdcbd99602fcbe076317add8a88bc7
      
-def trapezi(): # 6
+def trapezi(): # 7
     
 
-def cercle(): # 7
+def cercle(): # 8
     
 
 def poligon(): # 9
@@ -45,8 +55,13 @@ def poligon(): # 9
     
 
 def corona(): # 10
+    print("Càlcul de l'àrea i del perímetre d'una corona circular ")
+    R = float(input("Radi major = "))
+    r = float(input("radi menor = "))
+    area = PI * (R*R - r*r)
+    perimetre = 2 * PI * (R + r)
+    return area, perimetre
     
-
 def sector(): # 11
     
 
@@ -180,16 +195,24 @@ elif menu == 3 :
     print("El perímetre és ", perimetre)
     
 elif menu == 4 : # Alumn@ 30
-    
+    area, perimetre = paralellogram()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 5 :
-    
+    area, perimetre = rombe()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 6 :
-    
+    area, perimetre = estel()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 7 :  
-    
+     area, perimetre = trapezi()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 8 : # Alumn@ 31
     
