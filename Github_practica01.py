@@ -48,7 +48,15 @@ def trapezi(): # 7
     
 
 def cercle(): # 8
+<<<<<<< HEAD
+    print("Càlcul de l'àrea i del perímetre d'un cercle ")
+    radi = float(input("radi = "))
+    area = math.pow(radi, 2) * PI
+    perimetre = 2 * PI * radi
+    return area, perimetre
+=======
     
+>>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
 
 def poligon(): # 9
     
