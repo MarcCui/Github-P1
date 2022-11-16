@@ -2,7 +2,7 @@
 
 # Importar la llibreria math i la constant PI Alumn@ 26
 # L'alumn@ 26 ens explicarà què és la llibreria math i perquè la fem servir
-
+# La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
 import math
 PI = math.pi  
 
@@ -31,9 +31,16 @@ def rombe(): # 5
 <<<<<<< HEAD
 >>>>>>> 5b45db3a2bb343e876f3364324fbfcb5370b435e
 def estel(): # 6
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
+def estel(): # 6
     
 =======
 def estel(): # 5
+>>>>>>> 38087740f2cdf39453492f6081d8a1931d2cf2cf
     print("Càlcul de l'àrea i del perímetre d'un estel ")
     a = float(input("Costat menor a = "))
     b = float(input("Costat major b = "))
@@ -47,8 +54,32 @@ def estel(): # 5
 def trapezi(): # 7
     
 
+<<<<<<< HEAD
 def cercle(): # 8
+=======
+<<<<<<< HEAD
+def cercle(): # 7
+    print("Càlcul de l'àrea i del perímetre d'un cercle ")
+    radi = float(input("radi = "))
+    area = math.pow(radi, 2) * PI
+    perimetre = 2 * PI * radi
+    return area, perimetre
+=======
+def cercle(): # 8
+<<<<<<< HEAD
+    print("Càlcul de l'àrea i del perímetre d'un cercle ")
+    radi = float(input("radi = "))
+    area = math.pow(radi, 2) * PI
+    perimetre = 2 * PI * radi
+    return area, perimetre
+=======
+>>>>>>> 38087740f2cdf39453492f6081d8a1931d2cf2cf
     
+<<<<<<< HEAD
+>>>>>>> 5b45db3a2bb343e876f3364324fbfcb5370b435e
+=======
+>>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
+>>>>>>> b820cb2cd834ee863c2d84cb7cb1de8abfd1304f
 
 def poligon(): # 9
     
@@ -62,6 +93,13 @@ def corona(): # 10
     return area, perimetre
     
 def sector(): # 11
+    print("Càlcul de l'àrea i del perímetre d'un sector circular ")
+    angle = float(input("Angle en graus = "))
+    R = float(input("radi = "))
+    area = PI * pow(R,2) * angle/360
+    perimetre = 2 * PI * R * (1-(angle/360))
+    return area, perimetre
+
     
 
 # Àrees i volums
@@ -162,21 +200,20 @@ print("9. ")
 print("10. ")
 print("11. ")
 print("")
-
-print("12. ") # Alumn@ 28
-print("13. ")
-print("14. ")
-print("15. ")
-print("16. ")
-print("17. ")
-print("18. ")
-print("19. ")
-print("20. ")
-print("21. ")
-print("22. ")
-print("23. ")
-print("24. ")
-print("25. ")
+print("12. L'àrea i el volum d'un cub ")
+print("13. L'àrea i el volum d'un cilindre ")
+print("14. L'àrea i el volum d'un ortoedre ")
+print("15. L'àrea i el volum d'un prisma recte ")
+print("16. L'àrea i el volum d'un con ")
+print("17. L'àrea i el volum d'un tronc de con ")
+print("18. L'àrea i el volum d'una esfera ")
+print("19. L'àrea i el volum d'una piràmide ")
+print("20. L'àrea i el volum d'un tetraedre regular ")
+print("21. L'àrea i el volum d'un octaedre regular ")
+print("22. L'àrea i el volum d'un tronc de piràmide ")
+print("23. L'àrea i el volum d'un casquet esfèric ")
+print("24. L'àrea i el volum d'un fus -falca esfèrica- ")
+print("25. L'àrea i el volum d'una zona o segment esfèric ")
 print("")
 print("==============================================")
 
@@ -185,24 +222,39 @@ menu = int(input("escull un element del menú: "))
 # Àrees i perímetres  Alumn@ 29
 
 if menu == 1 :
-    
+    area, perimetre = quadrat()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 2 :
-    
+    area, perimetre = triangle()
+    print("L'àres és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 3 :
+    area, perimetre = rectangle()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 4 : # Alumn@ 30
-    
+    area, perimetre = paralellogram()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 5 :
-    
+    area, perimetre = rombe()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 6 :
-    
+    area, perimetre = estel()
+    print("L'àrea és ", area)
+    print("El perímetre és ",perimetre)
     
 elif menu == 7 :  
-    
+     area, perimetre = trapezi()
+    print("L'àrea és ", area)
+    print("El perímetre és ", perimetre)
     
 elif menu == 8 : # Alumn@ 31
     
@@ -220,15 +272,23 @@ elif menu == 11 :
 # Àrees i volums Alumn@ 32
 
 elif menu == 12 :
-    
+    area, volum = cub()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
     
 elif menu == 13 :
-    
+    area, volum = cilindre()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
     
 elif menu == 14 :
-    
+    area, volum = ortoedre()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 15 :
-    
+    area, volum = prisma_recte()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 16 : # Alumn@ 33
     
 elif menu == 17 :
