@@ -24,7 +24,7 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
-def estel(): # 5
+def estel(): # 6
     print("Càlcul de l'àrea i del perímetre d'un estel ")
     a = float(input("Costat menor a = "))
     b = float(input("Costat major b = "))
@@ -34,10 +34,10 @@ def estel(): # 5
     perimetre = 2 * (b + a)
     return area, perimetre
      
-def trapezi(): # 6
+def trapezi(): # 7
     
 
-def cercle(): # 7
+def cercle(): # 8
     
 
 def poligon(): # 9
@@ -179,15 +179,23 @@ elif menu == 11 :
 # Àrees i volums Alumn@ 32
 
 elif menu == 12 :
-    
+    area, volum = cub()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
     
 elif menu == 13 :
-    
+    area, volum = cilindre()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
     
 elif menu == 14 :
-    
+    area, volum = ortoedre()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 15 :
-    
+    area, volum = prisma_recte()
+    print("L'àrea és ",area)
+    print("El volum és ",volum)
 elif menu == 16 : # Alumn@ 33
     
 elif menu == 17 :
