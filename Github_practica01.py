@@ -82,6 +82,13 @@ def cercle(): # 8
 >>>>>>> b820cb2cd834ee863c2d84cb7cb1de8abfd1304f
 
 def poligon(): # 9
+    print("Càlcul de l'àrea i del perímetre d'un polígon ")
+    b = float(input("Costat = "))
+    costats = float(input("Número de costats = "))
+    a = float(input("Apotema = "))
+    area = (b * a)/2 * costats
+    perimetre = costats * b
+    return area, perimetre
     
 
 def corona(): # 10
