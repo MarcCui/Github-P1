@@ -49,17 +49,25 @@ def estel(): # 6
     return area, perimetre
 
      
-def trapezi(): # 7
-    
+def trapezi(): # 7 Mariona B
+    print("Càlcul de l'àrea i del perímetre d'un trapezi")
+    B = float(input("Base major B = "))
+    b = float(input("Base menor b = "))
+    a = float(input("Costat a = "))
+    c = float(input("Costat c = "))
+    h = float(input("Alçada = "))
+    area = (B + b) * h * (1/2)
+    perimetre = B + b + a + c
+    return area, perimetre
 
-def cercle(): # 8
+def cercle(): # 8 Eric.C
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
     radi = float(input("radi = "))
     area = math.pow(radi, 2) * PI
     perimetre = 2 * PI * radi
     return area, perimetre
 
-def poligon(): # 9
+def poligon(): # 9 PolC
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
     b = float(input("Costat = "))
     costats = float(input("Número de costats = "))
@@ -69,7 +77,7 @@ def poligon(): # 9
     return area, perimetre
     
 
-def corona(): # 10
+def corona(): # 10 Judit C
     print("Càlcul de l'àrea i del perímetre d'una corona circular ")
     R = float(input("Radi major = "))
     r = float(input("radi menor = "))
@@ -170,7 +178,16 @@ def casquet_esferic(): # 23
 def fus_falcaEsferica(): # 24
     
     
-def segment_esferic(): # 25
+def segment_esferic(): # 25 Eduardo Otoni
+    print("Càlcul de l'àrea i del volum d'un segment esfèric ")
+    h = float(input("Alçada de la zona o segment esfèric = "))
+    R = float(input("Radi de l'esfera = "))
+    r_gran = float(input("Radi gran del segment = "))
+    r_petit = float(input("Radi petit del segment = "))
+    area = 2 * PI * R * h
+    volum = 1/6 * PI * h * (pow(h,2) + 3 * pow(r_gran,2) + 3 * pow(r_petit,2))
+    return area, volum
+    
 
 # Els alumnes 27 i 28 buscaran les taules a treballar i comprobaran resultats d'execució
 # Programa principal  Alumn@ 27
@@ -209,7 +226,7 @@ print("==============================================")
 
 menu = int(input("escull un element del menú: "))
 
-# Àrees i perímetres  Alumn@ 29
+# Àrees i perímetres  Alumn@ 29 jan.r
 
 if menu == 1 :
     area, perimetre = quadrat()
@@ -226,7 +243,7 @@ elif menu == 3 :
     print("L'àrea és ", area)
     print("El perímetre és ", perimetre)
     
-elif menu == 4 : # Alumn@ 30
+elif menu == 4 : # 30 Anaís S.
     area, perimetre = paralellogram()
     print("L'àrea és ", area)
     print("El perímetre és ", perimetre)
@@ -259,7 +276,7 @@ elif menu == 10 :
 elif menu == 11 :
     
 
-# Àrees i volums Alumn@ 32
+# Àrees i volums Alumn@ 32 JanS
 
 elif menu == 12 :
     area, volum = cub()
