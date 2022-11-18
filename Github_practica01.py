@@ -45,7 +45,7 @@ def estel(): # 6
 def trapezi(): # 7
     
 
-def cercle(): # 8
+def cercle(): # 8 EricC
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
     radi = float(input("radi = "))
     area = math.pow(radi, 2) * PI
