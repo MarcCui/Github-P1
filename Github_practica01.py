@@ -18,7 +18,14 @@ def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'
     perimetre = 4 * a
     return area, perimetre
 
-def triangle(): # 2
+def triangle(): # 2 Pau A
+    h = float(input("Quan mesura l'altura?"))
+    a = float(input("Quan mesura un costat?"))
+    b = float(input("Quan mesura la base?"))
+    c = float(input("Quan mesura el costat que falta?"))
+    area = b*h/2
+    perimetre = a+b+c
+    return area, perimetre
     
 
 def rectangle(): # 3
