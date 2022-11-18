@@ -38,7 +38,7 @@ def rombe(): # 5
     
 
 
-def estel(): # 6
+def estel(): # 6 Biel B.
     print("Càlcul de l'àrea i del perímetre d'un estel ")
     a = float(input("Costat menor a = "))
     b = float(input("Costat major b = "))
