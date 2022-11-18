@@ -135,7 +135,7 @@ def octaedre_regular(): # 21
         print("Alguna cosa ha anat malament, tornem-ho a intentar!")
         octaedre_regular()
 
-def tronc_piramide(): # 22
+def tronc_piramide(): # 22 Irina M
     print("Càlcul de l'àrea i del volum d'un tronc de piràmide ")
     
     h = float(input("Alçada = "))
