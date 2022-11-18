@@ -49,8 +49,16 @@ def estel(): # 6
     return area, perimetre
 
      
-def trapezi(): # 7
-    
+def trapezi(): # 7 Mariona B
+    print("Càlcul de l'àrea i del perímetre d'un trapezi")
+    B = float(input("Base major B = "))
+    b = float(input("Base menor b = "))
+    a = float(input("Costat a = "))
+    c = float(input("Costat c = "))
+    h = float(input("Alçada = "))
+    area = (B + b) * h * (1/2)
+    perimetre = B + b + a + c
+    return area, perimetre
 
 def cercle(): # 8 Eric.C
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
@@ -59,7 +67,7 @@ def cercle(): # 8 Eric.C
     perimetre = 2 * PI * radi
     return area, perimetre
 
-def poligon(): # 9
+def poligon(): # 9 PolC
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
     b = float(input("Costat = "))
     costats = float(input("Número de costats = "))
@@ -69,7 +77,7 @@ def poligon(): # 9
     return area, perimetre
     
 
-def corona(): # 10
+def corona(): # 10 Judit C
     print("Càlcul de l'àrea i del perímetre d'una corona circular ")
     R = float(input("Radi major = "))
     r = float(input("radi menor = "))
@@ -209,7 +217,7 @@ print("==============================================")
 
 menu = int(input("escull un element del menú: "))
 
-# Àrees i perímetres  Alumn@ 29
+# Àrees i perímetres  Alumn@ 29 jan.r
 
 if menu == 1 :
     area, perimetre = quadrat()
@@ -259,7 +267,7 @@ elif menu == 10 :
 elif menu == 11 :
     
 
-# Àrees i volums Alumn@ 32
+# Àrees i volums Alumn@ 32 JanS
 
 elif menu == 12 :
     area, volum = cub()
