@@ -14,7 +14,9 @@ def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'
     a = float(input("Costat = "))
     area = a * a
     perimetre = 4 * a
-    return area, perimetredef triangle(): # 2
+    return area, perimetre
+
+def triangle(): # 2
     
 
 def rectangle(): # 3
@@ -26,21 +28,8 @@ def paralellogram(): # 4
 def rombe(): # 5
     
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5b45db3a2bb343e876f3364324fbfcb5370b435e
+
 def estel(): # 6
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
-def estel(): # 6
-    
-=======
-def estel(): # 5
->>>>>>> 38087740f2cdf39453492f6081d8a1931d2cf2cf
     print("Càlcul de l'àrea i del perímetre d'un estel ")
     a = float(input("Costat menor a = "))
     b = float(input("Costat major b = "))
@@ -49,37 +38,17 @@ def estel(): # 5
     area = (D * d) * (1/2)
     perimetre = 2 * (b + a)
     return area, perimetre
->>>>>>> 1f1f3c158bbdcbd99602fcbe076317add8a88bc7
+
      
 def trapezi(): # 7
     
 
-<<<<<<< HEAD
 def cercle(): # 8
-=======
-<<<<<<< HEAD
-def cercle(): # 7
     print("Càlcul de l'àrea i del perímetre d'un cercle ")
     radi = float(input("radi = "))
     area = math.pow(radi, 2) * PI
     perimetre = 2 * PI * radi
     return area, perimetre
-=======
-def cercle(): # 8
-<<<<<<< HEAD
-    print("Càlcul de l'àrea i del perímetre d'un cercle ")
-    radi = float(input("radi = "))
-    area = math.pow(radi, 2) * PI
-    perimetre = 2 * PI * radi
-    return area, perimetre
-=======
->>>>>>> 38087740f2cdf39453492f6081d8a1931d2cf2cf
-    
-<<<<<<< HEAD
->>>>>>> 5b45db3a2bb343e876f3364324fbfcb5370b435e
-=======
->>>>>>> 046ce1fce90d4e3da0784d7d21b998f5cfa8f186
->>>>>>> b820cb2cd834ee863c2d84cb7cb1de8abfd1304f
 
 def poligon(): # 9
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
@@ -181,7 +150,7 @@ def tronc_piramide(): # 22
     
     return area, volum
  
-def casquet_esferic():
+def casquet_esferic(): # 23
     print("Càlcul de l'àrea i del volum d'un casquet_esfèric ")
     r = float(input("Radi = "))
     h = float(input("Alçada del casquet = "))
@@ -212,7 +181,7 @@ print("9. ")
 print("10. ")
 print("11. ")
 print("")
-print("12. L'àrea i el volum d'un cub ")
+print("12. L'àrea i el volum d'un cub ") # Alumne 28
 print("13. L'àrea i el volum d'un cilindre ")
 print("14. L'àrea i el volum d'un ortoedre ")
 print("15. L'àrea i el volum d'un prisma recte ")
@@ -337,15 +306,17 @@ elif menu == 25 :
 # Ara us heu de posar dins la carpeta Github_Practica01, on teniu els arxius
 # Seguiu amb la llista de gits que ve tot seguit
 
+# git pull (recuperar l'estat actual del programa, tal i com es troba al remot)
+# Afegiu la vostra part del programa
 # Configuració de correu (vosaltres amb el vostre correu)
-# git config -- user.email "josepmaria.bergada@escolaindustrial.org"
-# git config -- user.name "nom d'usuari de l'alumn@", el de l'Escola
+# git config -- user.email "elvostreusuari@escolaindustrial.org"
+# git config -- user.name "nom d'usuari de l'alumn@", el de l'Escola 
 
 
 # git status ( si heu fet modificacions, us marcarà en vermell)
 # git add . -> afegeix tots els arxius. Deixa l'espai abans del punt
 # git status (ja surten les modificacins en verd)
-# git commit -m "elvostreusuari@escolaindustrial.org Cadascu ha de posar el que ha fet sense accents"
+# git commit -m "Nom+inicialcognom + Número-> "Exemple JosepMariaB Núm (el vostre)"
 # git status
 # git push -> pujar al repositori
 
