@@ -316,7 +316,7 @@ elif menu == 25 :
 # git status ( si heu fet modificacions, us marcarà en vermell)
 # git add . -> afegeix tots els arxius. Deixa l'espai abans del punt
 # git status (ja surten les modificacins en verd)
-# git commit -m "Nom+inicialcognom + Número-> "Exemple JosepMariaB Núm (el vostre)"
+# git commit -m "Nom+inicialcognom + Número-> "Exemple JosepMariaB Num[el vostre]"
 # git status
 # git push -> pujar al repositori
 
