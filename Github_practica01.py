@@ -167,7 +167,7 @@ def tronc_piramide(): # 22 Irina M
     
     return area, volum
  
-def casquet_esferic(): # 23
+def casquet_esferic(): # 23 Pere M.
     print("Càlcul de l'àrea i del volum d'un casquet_esfèric ")
     r = float(input("Radi = "))
     h = float(input("Alçada del casquet = "))
