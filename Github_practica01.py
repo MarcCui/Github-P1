@@ -52,7 +52,7 @@ def cercle(): # 8
     perimetre = 2 * PI * radi
     return area, perimetre
 
-def poligon(): # 9
+def poligon(): # 9 PolC
     print("Càlcul de l'àrea i del perímetre d'un polígon ")
     b = float(input("Costat = "))
     costats = float(input("Número de costats = "))
