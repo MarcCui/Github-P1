@@ -3,6 +3,7 @@
 # Importar la llibreria math i la constant PI Alumn@ 26
 # L'alumn@ 26 ens explicarà què és la llibreria math i perquè la fem servir
 # La llibrería math proporciona accés a les funcions matemàtiques definides per l'estàndard C. L'utilitzem per fer les funcions matemàtiques bàsiques.
+
 import math
 PI = math.pi  
 
@@ -10,6 +11,7 @@ PI = math.pi
 # Els números es corresponen amb el número que he assignat a cada figura de la taula
 # Els números també es corresponen amb els de l'alumn@ que ha de fer el programa i enviar-lo
 # El número de l'alumnat es correspon amb el seu número de llista
+
 def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'àrea i del perímetre d'un quadrat ")
     a = float(input("Costat = "))
     area = a * a
@@ -308,6 +310,7 @@ elif menu == 25 :
 
 # git pull (recuperar l'estat actual del programa, tal i com es troba al remot)
 # Afegiu la vostra part del programa
+# On hi ha el comentari amb el vostre número, poseu per exemple 36 JosepMariaB
 # Configuració de correu (vosaltres amb el vostre correu)
 # git config -- user.email "elvostreusuari@escolaindustrial.org"
 # git config -- user.name "nom d'usuari de l'alumn@", el de l'Escola 
@@ -316,7 +319,7 @@ elif menu == 25 :
 # git status ( si heu fet modificacions, us marcarà en vermell)
 # git add . -> afegeix tots els arxius. Deixa l'espai abans del punt
 # git status (ja surten les modificacins en verd)
-# git commit -m "Nom+inicialcognom + Número-> "Exemple JosepMariaB Num[el vostre]"
+# git commit -m "Nom+inicialcognom + Numero [el vostre]-> "Exemple JosepMariaB Num 36"
 # git status
 # git push -> pujar al repositori
 
