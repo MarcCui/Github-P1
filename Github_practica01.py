@@ -217,7 +217,7 @@ print("==============================================")
 
 menu = int(input("escull un element del menú: "))
 
-# Àrees i perímetres  Alumn@ 29
+# Àrees i perímetres  Alumn@ 29 jan.r
 
 if menu == 1 :
     area, perimetre = quadrat()
