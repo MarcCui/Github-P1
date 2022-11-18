@@ -77,7 +77,7 @@ def poligon(): # 9
     return area, perimetre
     
 
-def corona(): # 10
+def corona(): # 10 Judit C
     print("Càlcul de l'àrea i del perímetre d'una corona circular ")
     R = float(input("Radi major = "))
     r = float(input("radi menor = "))
