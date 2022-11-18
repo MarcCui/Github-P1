@@ -226,7 +226,7 @@ elif menu == 3 :
     print("L'àrea és ", area)
     print("El perímetre és ", perimetre)
     
-elif menu == 4 : # Alumn@ 30
+elif menu == 4 : # 30 Anaís S.
     area, perimetre = paralellogram()
     print("L'àrea és ", area)
     print("El perímetre és ", perimetre)
