@@ -13,19 +13,9 @@ PI = math.pi
 # El número de l'alumnat es correspon amb el seu número de llista
 
 def quadrat(): # 1 (figura 1 alumn@ 1 i així fins al 25    print("Càlcul de l'àrea i del perímetre d'un quadrat ")
-    a = float(input("Costat = "))
-    area = a * a
-    perimetre = 4 * a
-    return area, perimetre
+    
 
 def triangle(): # 2 Pau A
-    h = float(input("Quan mesura l'altura?"))
-    a = float(input("Quan mesura un costat?"))
-    b = float(input("Quan mesura la base?"))
-    c = float(input("Quan mesura el costat que falta?"))
-    area = b*h/2
-    perimetre = a+b+c
-    return area, perimetre
     
 
 def rectangle(): # 3
@@ -39,51 +29,16 @@ def rombe(): # 5
 
 
 def estel(): # 6 Biel B.
-    print("Càlcul de l'àrea i del perímetre d'un estel ")
-    a = float(input("Costat menor a = "))
-    b = float(input("Costat major b = "))
-    D = float(input("Diagonal major = "))
-    d = float(input("Diagonal menor = "))
-    area = (D * d) * (1/2)
-    perimetre = 2 * (b + a)
-    return area, perimetre
 
      
 def trapezi(): # 7 Mariona B
-    print("Càlcul de l'àrea i del perímetre d'un trapezi")
-    B = float(input("Base major B = "))
-    b = float(input("Base menor b = "))
-    a = float(input("Costat a = "))
-    c = float(input("Costat c = "))
-    h = float(input("Alçada = "))
-    area = (B + b) * h * (1/2)
-    perimetre = B + b + a + c
-    return area, perimetre
 
 def cercle(): # 8 Eric.C
-    print("Càlcul de l'àrea i del perímetre d'un cercle ")
-    radi = float(input("radi = "))
-    area = math.pow(radi, 2) * PI
-    perimetre = 2 * PI * radi
-    return area, perimetre
 
 def poligon(): # 9 PolC
-    print("Càlcul de l'àrea i del perímetre d'un polígon ")
-    b = float(input("Costat = "))
-    costats = float(input("Número de costats = "))
-    a = float(input("Apotema = "))
-    area = (b * a)/2 * costats
-    perimetre = costats * b
-    return area, perimetre
     
 
 def corona(): # 10 Judit C
-    print("Càlcul de l'àrea i del perímetre d'una corona circular ")
-    R = float(input("Radi major = "))
-    r = float(input("radi menor = "))
-    area = PI * (R*R - r*r)
-    perimetre = 2 * PI * (R + r)
-    return area, perimetre
     
 def sector(): # 11 Marc C
     print("Càlcul de l'àrea i del perímetre d'un sector circular ")
@@ -119,74 +74,20 @@ def esfera(): # 18
     
 
 def piramide(): # 19
-    print("Càlcul de l'àrea i del volum d'una piràmide ")
-    abase = float(input("Longitud del centre de la base al centre del costat = "))
-    acostat = float(input("Longitud del vèrtex al centre del costat = "))
-    h = float(input("Alçada = "))
-    area = (2*abase) * 4 * (abase + acostat)/2
-    volum = pow((2 * abase),2) * h * (1/3)
-    return area, volum
                   
 def tetraedre_regular(): # 20
    
 
 def octaedre_regular(): # 21
-    A = 0
-    V = 0
-    try:
-        print("Càlcul de l'àrea i del volum d'un octaedre regular ")
-        l = float(input("Escriu l'aresta del octaedre regular >> "))
-        A = (l**2)*(2*(3**0.5))
-        V = (l**3)*(2**0.5)*(1/3)
-        return A,V
-    except:
-        print("Alguna cosa ha anat malament, tornem-ho a intentar!")
-        octaedre_regular()
-
+    
 def tronc_piramide(): # 22 Irina M
-    print("Càlcul de l'àrea i del volum d'un tronc de piràmide ")
-    
-    h = float(input("Alçada = "))
-    costats = float(input("Número de costats = "))
-    a = float(input("Mida de la cara inclinada a = "))
-    
-    print("Càlcul de l'àrea i del perímetre de la base major ")
-    b_gran = float(input("Costat gran = "))
-    a1 = float(input("Apotema base gran = "))
-    area_major = (b_gran * a1)/2 * costats
-    perimetre_major = costats * b_gran
-    
-    print("Càlcul de l'àrea i del perímetre de la base menor ")
-    b_petit = float(input("Costat petit = "))
-    a2 = float(input("Apotema base petita = "))
-    area_menor = (b_petit * a2)/2 * costats
-    perimetre_menor = costats * b_petit
-    
-    area  = (0.5 * (perimetre_major + perimetre_menor) * a) + area_major + area_menor
-    volum = (area_major + area_menor + pow(area_major * area_menor , 1/2)) * h * 1/3
-    
-    return area, volum
  
 def casquet_esferic(): # 23 Pere M.
-    print("Càlcul de l'àrea i del volum d'un casquet_esfèric ")
-    r = float(input("Radi = "))
-    h = float(input("Alçada del casquet = "))
-    area = 2 * PI * r * h
-    volum = PI * h*h * (3 * r - h) * 1/3
-    return area, volum    
     
 def fus_falcaEsferica(): # 24
     
     
 def segment_esferic(): # 25 Eduardo Otoni
-    print("Càlcul de l'àrea i del volum d'un segment esfèric ")
-    h = float(input("Alçada de la zona o segment esfèric = "))
-    R = float(input("Radi de l'esfera = "))
-    r_gran = float(input("Radi gran del segment = "))
-    r_petit = float(input("Radi petit del segment = "))
-    area = 2 * PI * R * h
-    volum = 1/6 * PI * h * (pow(h,2) + 3 * pow(r_gran,2) + 3 * pow(r_petit,2))
-    return area, volum
     
 
 # Els alumnes 27 i 28 buscaran les taules a treballar i comprobaran resultats d'execució
@@ -353,7 +254,7 @@ elif menu == 25 :
 # També us pot demanar un codi que us donarà just abans
 # git status
 
-# cada alumn@ vetllarà perquè la seva part de codi funcioni
+# cada alumn@ vetllarà perquè la seva part de codi funcioi
 
 
 """ Prèviament cada alumn@ haurà programat algunes de les figures
