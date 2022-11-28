@@ -40,7 +40,7 @@ def poligon(): # 9 PolC
 
 def corona(): # 10 Judit C
     
-def sector(): # 11 Marc C
+def sector(): # 11 Marc C 
     print("Càlcul de l'àrea i del perímetre d'un sector circular ")
     angle = float(input("Angle en graus = "))
     R = float(input("radi = "))
